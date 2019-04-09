@@ -18,6 +18,8 @@
 (add-hook 'cider-mode-hook #'company-mode)
 (add-hook 'cider-repl-mode-hook #'company-mode)
 
+(add-hook 'cider-mode-hook #'eldoc-mode)
+
 ;; Wow it's annoying that a package stuffs its autogen config here
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
