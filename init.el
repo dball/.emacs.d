@@ -21,6 +21,9 @@
 ;; Enable eldoc mode in cider
 (add-hook 'cider-mode-hook #'eldoc-mode)
 
+;; Enable paren mode in clojure
+(add-hook 'clojure-mode-hook #'show-paren-mode)
+
 ;; Dark, peaceful colors
 (load-theme 'zenburn t)
 
