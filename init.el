@@ -1,5 +1,9 @@
 ;; Disable backup files, we have version control
 (setq make-backup-files nil)
+;; Disable autosave files, I'll save when I want
+(setq auto-save-default nil)
+;; Disable weird lock files, stop trying to make locking a thing
+(setq create-lockfiles nil)
 
 ;; Allow installation of named packages
 (require 'package)
