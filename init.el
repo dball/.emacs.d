@@ -4,6 +4,8 @@
 (setq auto-save-default nil)
 ;; Disable weird lock files, stop trying to make locking a thing
 (setq create-lockfiles nil)
+;; Always reload from disk when safe, git checkouts are a thing
+(global-auto-revert-mode t)
 
 ;; Allow installation of named packages
 (require 'package)
@@ -43,7 +45,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (inf-clojure projectile zenburn-theme company paredit cider))))
+    (go-mode inf-clojure projectile zenburn-theme company paredit cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
