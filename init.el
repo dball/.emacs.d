@@ -52,3 +52,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; the style/indent hint isn't working or being honored :(
+(require 'clojure-mode)
+
+(define-clojure-indent
+  (defrecord-censored '(2 nil nil (:defn))))
