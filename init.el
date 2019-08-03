@@ -45,7 +45,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (js2-refactor js2-mode go-mode inf-clojure projectile zenburn-theme company paredit cider))))
+    (xref-js2 js2-refactor js2-mode go-mode inf-clojure projectile zenburn-theme company paredit cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
