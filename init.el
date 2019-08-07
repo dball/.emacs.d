@@ -74,4 +74,6 @@
 
 (setq-default js2-basic-offset 2)
 (setq-default indent-tabs-mode nil)
+
+;; possibly this should be js-switch-indent-offset 2 ??
 (setq-default js2-indent-switch-body t)
